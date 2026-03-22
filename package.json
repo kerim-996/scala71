@@ -1,12 +1,15 @@
-const express = require("express");
-const path = require("path");
-const app = express();
-
-const PORT = process.env.PORT || 3000;
-
-// Serve i file statici dalla cartella public
-app.use(express.static(path.join(__dirname, "public")));
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+{
+  "name": "scala71",
+  "version": "1.0.0",
+  "description": "Gioco carte Scala 71 multiplayer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
