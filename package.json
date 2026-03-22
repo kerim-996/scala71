@@ -1,0 +1,15 @@
+{
+  "name": "scala71",
+  "version": "1.0.0",
+  "description": "Gioco carte Scala 71 multiplayer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
